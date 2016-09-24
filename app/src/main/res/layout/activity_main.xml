@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#a3a375"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.agus.coba.latihan1.MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="right"
+        android:textAllCaps="false"
+        android:id="@+id/editText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:text="7"
+        android:onClick="tombol7click"
+        android:id="@+id/tombol7"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:text="8"
+        android:onClick="tombol8click"
+        android:id="@+id/tombol8"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:text="9"
+        android:onClick="tombol9click"
+        android:id="@+id/tombol9"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:onClick="tombolBagiclick"
+        android:text=":"
+        android:id="@+id/tombolBagi"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:text="&lt;"
+        android:id="@+id/hapus"
+        android:onClick="tombolHapusclick"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:text="cc"
+        android:id="@+id/reset"
+        android:onClick="tombolResetclick"/>
+        </LinearLayout>
+
+
+
+
+    <LinearLayout android:id="@+id/linearLayout2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:text="4"
+            android:onClick="tombol4click"
+            android:id="@+id/tombol4" />
+
+
+        <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:text="5"
+        android:id="@+id/tombol5"
+        android:onClick="tombol5click"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:text="6"
+        android:id="@+id/tombol6"
+        android:onClick="tombol6click"
+        />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:text="*"
+            android:id="@+id/tombolKali"
+            android:onClick="tombolKaliclick" />
+
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:text="("
+        android:id="@+id/kurungBuka"
+        />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:text=")"
+        android:id="@+id/kurungTutup"
+        />
+</LinearLayout>
+
+    <LinearLayout android:id="@+id/linearLayout3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:onClick="tombol1click"
+        android:text="1"
+        android:id="@+id/tombol1" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:text="2"
+        android:onClick="tombol2click"
+        android:id="@+id/tombol2"
+        />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:text="3"
+        android:onClick="tombol3click"
+        android:id="@+id/tombol3"
+       />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:text="-"
+        android:onClick="tombolKurangclick"
+        android:id="@+id/tombolKurang" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:textAllCaps="false"
+        android:text="x\u00b2"
+        android:onClick="tombolKuadratclick"
+        android:id="@+id/tombolKuadrat"
+        />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:text="@string/sqr_name"
+        android:id="@+id/tombolAkar"
+        android:onClick="tombolAkarclick"
+         />
+</LinearLayout>
+
+    <LinearLayout android:id="@+id/linearLayout4" android:layout_width="fill_parent" android:layout_height="wrap_content">
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:text="0"
+        android:onClick="tombol0click"
+        android:id="@+id/tombol0" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:text="."
+        android:id="@+id/tombolTitik"
+        android:onClick="tombolTitikclick" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:text="%"
+        android:id="@+id/tombolPersen"
+        android:onClick="tombolPersenclick" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:text="+"
+        android:id="@+id/tombolTambah"
+        android:onClick="tombolTambahclick"
+       />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_weight="0.8"
+        android:layout_height="fill_parent"
+        android:text="="
+        android:onClick="tombolHasilclick"
+        android:id="@+id/tombolHasil"/>
+</LinearLayout>
+
+</LinearLayout>
